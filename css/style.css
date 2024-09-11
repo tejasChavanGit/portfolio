@@ -10094,3 +10094,14 @@ h1 {
       box-shadow: 1px 1px 2px 1px #232931, 0px 0px 0px 20px transparent;
     }
   }
+
+
+@media only screen and (max-width: 600px) {
+  #home-section {
+    margin-top: 0;
+  }
+
+  .no-gutters > .col, .no-gutters > [class*="col-"] { 
+    padding-left: 0;
+  }
+}
